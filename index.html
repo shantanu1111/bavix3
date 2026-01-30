@@ -375,29 +375,45 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-br from-bavix-blue via-bavix-light-blue to-bavix-blue relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-0 left-0 w-96 h-96 bg-bavix-gold rounded-full filter blur-3xl"></div>
-            <div class="absolute bottom-0 right-0 w-96 h-96 bg-bavix-green rounded-full filter blur-3xl"></div>
+<section class="py-24 relative overflow-hidden">
+    <!-- Background Image -->
+    <div 
+        class="absolute inset-0 bg-[url('blue.jpg')] bg-cover bg-center opacity-20">
+    </div>
+
+    <!-- Optional gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-br from-bavix-blue via-bavix-light-blue to-bavix-blue opacity-80"></div>
+
+    <!-- Glow blobs (optional, keep or remove) -->
+    <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-bavix-gold rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-bavix-green rounded-full blur-3xl"></div>
+    </div>
+
+    <div 
+        class="absolute inset-0 bg-[url('blue.jpg')] bg-cover bg-center opacity-20">
+    </div>
+
+    <!-- Content -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-8">
+            Seize Your Opportunity.
+        </h2>
+        <p class="text-xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
+            Whether you're seeking talent or exploring career opportunities, let's discuss how we can support your goals.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="employers.html"
+               class="btn-primary text-bavix-blue font-semibold px-8 py-4 rounded-lg inline-flex items-center justify-center text-sm uppercase tracking-wider">
+                For Employers
+            </a>
+            <a href="talent.html"
+               class="bg-white text-bavix-blue font-semibold px-8 py-4 rounded-lg inline-flex items-center justify-center text-sm uppercase tracking-wider hover:bg-bavix-gold transition">
+                For Talent
+            </a>
         </div>
-        
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-light text-white mb-8">
-                Seize Your Opportunity.
-            </h2>
-            <p class="text-xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
-                Whether you're seeking talent or exploring career opportunities, let's discuss how we can support your goals.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="employers.html" class="btn-primary text-bavix-blue font-semibold px-8 py-4 rounded-lg inline-flex items-center justify-center space-x-2 text-sm uppercase tracking-wider">
-                    <span>For Employers</span>
-                </a>
-                <a href="talent.html" class="bg-white text-bavix-blue font-semibold px-8 py-4 rounded-lg inline-flex items-center justify-center space-x-2 text-sm uppercase tracking-wider hover:bg-bavix-gold hover:text-bavix-blue transition">
-                    <span>For Talent</span>
-                </a>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white pt-16 pb-8">
